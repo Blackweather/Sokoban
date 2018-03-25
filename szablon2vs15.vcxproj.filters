@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Image Include="cs8x8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\Ground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\player.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\Crate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\EndPoint.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\Grass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\Wall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ba5acc45-a9c7-4006-beab-e9a0aa73463a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1b6004c4-0b11-4c00-9815-7fe19478b584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1d463809-9123-4a00-808e-f4049601d3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{4130441e-1a50-49b1-96cc-3fc5126b2d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{9644d0ee-3878-41f3-8959-f95c8532df4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{ee1bbc23-d36a-4584-afa6-414fb0866b4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLSample.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPoint.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDLSample.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPoint.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="img\info.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="maps\info.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="maps\map1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
