@@ -16,7 +16,7 @@ You cannot push more than one box at a time.
 > P - next level
 
 # How to make maps
-It's really to make your own maps in this implementation.
+It's really easy to make your own maps in this implementation.
 It's done using .txt files.
 There are already 14 maps in the map folder.
 
